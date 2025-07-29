@@ -1,11 +1,16 @@
-import Profile from "./components/Profile";
+import Header from './header';
+import Profile from './profile';
+import Footer from './Footer';
+ 
 
-function App() {
+const App = () => {
   return (
-    <div className="center-ui">
+    <div className="App">
+      <Header />
       <Profile />
+      <Footer />
     </div>
-  )
-}
+  );
+};
 
 export default App;

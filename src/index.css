@@ -1,0 +1,97 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #46E846 ;
+  
+}
+
+.App {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #46E846;
+  box-shadow: 0 4px 8px rgba(197, 24, 24, 0.1);
+  border: 30px solid;
+}
+
+header {
+  background-color: #4CAF50;
+  padding: 20px;
+  color: white;
+}
+
+h1 {
+  margin: 0;
+}
+
+.profile-picture img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.about-me {
+  margin-top: 20px;
+}
+
+.skills {
+  margin-top: 20px;
+  background-color: rgb(20, 150, 44);
+  border-color: aqua;
+}
+
+.skills ul {
+  list-style-type: none;
+  padding: 0;
+
+}
+
+.skills li {
+  display: inline-block;
+  margin: 5px 10px;
+  padding: 10px;
+  background-color: #75D975;
+  border-radius: 5px;
+  border-color: #007bff;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  margin-top: 20px;
+  background-color: #4bdb60;
+  color: white;
+  padding: 10px;
+}
+
+.about-me {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #4CAF50; /* vibrant green */
+  color: #fff; /* makes the text stand out on green */
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+}
+
+.about-me p {
+  font-size: 18px;
+  line-height: 1.6;
+}
